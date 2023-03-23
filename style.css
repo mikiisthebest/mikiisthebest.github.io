@@ -1,0 +1,163 @@
+.uppermenu {
+  font-family: 'Josefin Sans', sans-serif;
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  background:black;
+  padding:0;
+  color:white;
+  top:0;
+  left:0;
+  right:0;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-evenly;
+} 
+
+
+a {
+  color:white; 
+  font-size:30px;
+  padding:30px;
+  text-decoration:none;
+  width:25%;
+ } 
+
+a:hover {
+  background:grey;
+}
+
+
+
+.totalcontainer {
+  width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+ img {
+   width:300px;
+   height:500px;
+   margin:0px;
+   object-fit:cover;
+  
+}
+
+.picturewithtext {
+  position:relative;
+}
+
+.textboxinhead {
+  position:absolute;
+  top:120px;
+  left:50px;
+  font-size:60px;
+  font-family:Abril Fatface;
+  font-weight: 350;
+  letter-spacing: 1.5px;
+}
+
+#introtext {
+  color: black;
+  line-height:1.5;
+  font-size:20px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left:80px
+}
+
+#hitext {
+  font-size:30px;
+  position:relative;
+  top: 70px;
+}
+
+
+.intropart {
+  display:flex;
+}
+
+.achpart {
+    display:flex;
+}
+
+.exppart {
+    display:flex;
+}
+
+.trainingpart {
+    display:flex;
+}
+
+
+.partquote {
+}
+
+.parttext {
+  margin-top: 60px;
+  margin-left: -30px;
+}
+
+
+h4 {
+  margin-top:-16px;
+  letter-spacing: -1.8px;
+  font-weight:600;
+  
+}
+h3 {
+  color:black;
+  line-height:1.4;
+  margin-top:40px;
+  
+}
+
+.exptitles {
+  color:black;
+  margin-top: 50px;
+  
+}
+
+h4 {
+  color:black; 
+}
+
+ul, p {
+  list-style-type: square;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height:1.4;
+  font-size: 16px;
+  color: rgb(40,40,40);
+  letter-spacing:0.1px;
+}
+
+
+.sectionheaders {
+  text-transform: uppercase;
+  color: black;
+  margin-top: 40px;
+  margin-bottom:50px;
+  letter-spacing:2px;
+}
+
+
+blockquote {
+  width: 200px;
+  background-color:rgb(65,65,65);
+  color:white;
+  font-size:47px;
+  padding:50px;
+  font-family: 'Abril Fatface';
+  position:relative; 
+  right:40px;
+}  
+
+.qmark {
+  transform:rotate(180deg);
+  position: absolute;
+  top:-90px;
+  left:0px;
+  font-size:140px;
+  color:white;
+}
